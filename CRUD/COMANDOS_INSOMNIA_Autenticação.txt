@@ -1,0 +1,13 @@
+Rota Register
+http://localhost:5000/api/auth/register
+{
+	"username": "testuser",
+	"password": "testpassword"
+}
+
+Rota Login
+http://localhost:5000/api/auth/login
+{
+	"username": "testuser",
+	"password": "testpassword"
+}
