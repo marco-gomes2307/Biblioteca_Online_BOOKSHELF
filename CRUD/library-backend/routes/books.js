@@ -1,5 +1,5 @@
 const express = require('express'); // importamos o Express
-const Book = require('../models/book'); // importamos o modelo book
+const Book = require('../models/Book'); // importamos o modelo book
 const router = express.Router(); // criamos o roteador
 
 // *** CRIAÇÃO (POST) ***
