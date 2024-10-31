@@ -1,4 +1,5 @@
-/*import axios from "axios"; // importa Axios para requisições HTTP
+/*
+import axios from "axios"; // importa Axios para requisições HTTP
 
 // Cria instância do Axios com URL base da API
 const apiClient = axios.create({
@@ -23,3 +24,4 @@ export default {
         return apiClient.delete(`/${id}`) // DELETE para excluir livro
     }
 }
+*/
