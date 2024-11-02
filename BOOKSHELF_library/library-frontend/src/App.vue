@@ -49,14 +49,21 @@ export default {
       {
         id: 2,
         title: 'Harry potter 1998',
-        author: 'George Orwell',
+        author: 'J.K. Rowling',
         description: 'Uma distopia sobre um futuro totalitário.',
         image: 'https://books.google.com.br/books/publisher/content?id=hjcQCwAAQBAJ&hl=pt-BR&pg=PP1&img=1&zoom=3&bul=1&sig=ACfU3U0MuXkWY6t7UZcHk_zr0rBIUtBhwQ&w=1280' // Adicione a URL da imagem
       },
       {
         id: 3,
-        title: 'Dom Casmurro',
-        author: 'Machado de Assis',
+        title: 'Harry potter 1998',
+        author: 'J.K. Rowling',
+        description: 'Um romance sobre ciúmes e traições.',
+        image: 'https://books.google.com.br/books/publisher/content?id=ZDgQCwAAQBAJ&hl=pt-BR&pg=PP1&img=1&zoom=3&bul=1&sig=ACfU3U0u44NS8H0cOHCafDTnemDFuXgv7A&w=1280' // Adicione a URL da imagem
+      },
+      {
+        id: 4,
+        title: 'Harry potter 1998',
+        author: 'J.K. Rowling',
         description: 'Um romance sobre ciúmes e traições.',
         image: 'https://books.google.com.br/books/publisher/content?id=ZDgQCwAAQBAJ&hl=pt-BR&pg=PP1&img=1&zoom=3&bul=1&sig=ACfU3U0u44NS8H0cOHCafDTnemDFuXgv7A&w=1280' // Adicione a URL da imagem
       },
@@ -72,6 +79,7 @@ export default {
     }
   }
 }
+
 </script>
 
 <style>
@@ -104,6 +112,7 @@ export default {
   flex: 1; /* Faz a barra de pesquisa ocupar o espaço restante */
   display: flex;
   justify-content: center; /* Centraliza o conteúdo da barra de pesquisa */
+  padding: 5px;
 }
 
 .navbar-search input {
