@@ -1,0 +1,84 @@
+* {
+  margin: 0; /* Remove a margem padrão de todos os elementos */
+  padding: 0; /* Remove o preenchimento padrão de todos os elementos */
+  box-sizing: border-box; /* Inclui o preenchimento e a borda na largura e altura total dos elementos */
+}
+
+#app {
+  font-family: "Questrial", sans-serif;
+  text-align: center;
+  color: #000000;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000e0;
+  padding: 1rem;
+  color: white;
+}
+
+.navbar-brand { /* Logo BOOKSHELF */
+  font-family: "Questrial", sans-serif;
+  color: white;
+  text-decoration: none; /* Remove o sublinhado */
+  font-size: 2rem; /* Aumenta o tamanho da fonte do logo */
+}
+
+.nav-login { /* Botão Login */
+  font-family: "Questrial", sans-serif;
+  color: white;
+  text-decoration: none; /* Remove o sublinhado */
+  text-align: right; /* Alinha o conteúdo à direita */
+  font-size: 2rem; /* Aumenta o tamanho da fonte do logo */
+}
+
+
+.navbar-search {
+  font-family: "Questrial", sans-serif;
+  font-size: 2rem; /* Aumenta o tamanho da fonte do logo */
+  display: flex;
+  justify-content: center; /* Centraliza o conteúdo da barra de pesquisa */
+  padding: 5px;
+}
+
+.navbar-search input {
+  font-family: "Questrial", sans-serif;
+  font-size: 20px; /* Aumenta o tamanho da fonte do logo */
+  background-color: #eeeeee;
+  color: rgb(0, 0, 0);
+  padding: 0.5rem;
+  margin-right: 0.4rem;
+  text-align: center;
+  border-radius: 200px;
+  border-color: #000000;
+}
+
+.navbar-search button {
+  font-family: "Questrial", sans-serif;
+  padding: 0.5rem;
+  background-color: #198fc5;
+  color: rgb(0, 0, 0);
+  border-radius: 200px;
+  cursor: pointer;
+}
+
+.navbar-search button:hover {
+  border-radius: 14px;
+}
+
+.navbar-menu {
+  display: flex;
+  justify-content: flex-end; /* Alinha os itens do menu à direita */
+}
+
+.navbar-item {
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+.navbar-item:hover {
+  text-decoration: underline;
+}
