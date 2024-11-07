@@ -32,7 +32,8 @@
 </template>
 
 <script>
-import BookCard from './components/BookCard.vue'; // Importa o componente BookCard
+// Importa o componente BookCard
+import BookCard from './components/BookCard.vue'; 
 
 export default {
   components: {
@@ -71,6 +72,27 @@ export default {
           year: '2003',
           image: 'https://books.google.com.br/books/publisher/content?id=9TcQCwAAQBAJ&hl=pt-BR&pg=PP1&img=1&zoom=3&bul=1&sig=ACfU3U2FKM9mfr_xa-lQhD1DS2VFo7EBWA&w=1280'
         },
+        {
+          id: 5,
+          title: 'Harry Potter e o Enigma do Príncipe',
+          author: 'J.K. Rowling',
+          year: '2005',
+          image: 'https://books.google.com.br/books/publisher/content?id=yjUQCwAAQBAJ&hl=pt-BR&pg=PP1&img=1&zoom=3&bul=1&sig=ACfU3U3IsCzNQPypdQetDvLvwev_U129_Q&w=1280'
+        },
+        {
+          id: 6,
+          title: 'Harry Potter e as Relíquias da Morte',
+          author: 'J.K. Rowling',
+          year: '2009',
+          image: 'https://books.google.com.br/books/publisher/content?id=-DgQCwAAQBAJ&hl=pt-BR&pg=PP1&img=1&zoom=3&bul=1&sig=ACfU3U2r7a71CgdDHa5vXleyiP3gzS4b2Q&w=1280'
+        },
+        {
+          id: 7,
+          title: 'Harry Potter e a Criança Amaldiçoada',
+          author: 'J.K. Rowling',
+          year: '2016',
+          image: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ50KWOufU7UQCYDKTcCqFNQ-7IV_rE-cnxv2vYTQ8KT1modPCR'
+        },
       ]
     };
   },
@@ -91,5 +113,5 @@ export default {
     }
   }
 }
-</script>
 
+</script>

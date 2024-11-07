@@ -33,3 +33,17 @@
     height: auto; /* Mantém a proporção da imagem */
     border-radius: 10px; /* Bordas arredondadas para a imagem */
 }
+
+.reserve-button {
+    /* Estilos para o botão de reservar */
+    background-color: #101820;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.reserve-button:hover {
+    background-color: #132538; /* Efeito de hover para o botão */ 
+}
