@@ -60,34 +60,41 @@ export default {
         },
         {
           id: 3,
+          title: 'Harry Potter e o prisioneiro de Azkaban',
+          author: 'J.K. Rowling',
+          year: '1999',
+          image: 'https://books.google.com.br/books/publisher/content?id=qDYQCwAAQBAJ&hl=pt-BR&pg=PP1&img=1&zoom=3&bul=1&sig=ACfU3U0qQYW0uegAdEsHCpJk2ZmSwdZIfA&w=1280'
+        },
+        {
+          id: 4,
           title: 'Harry Potter e o Cálice de Fogo',
           author: 'J.K. Rowling',
           year: '2000',
           image: 'https://books.google.com.br/books/publisher/content?id=ZDgQCwAAQBAJ&hl=pt-BR&pg=PP1&img=1&zoom=3&bul=1&sig=ACfU3U0u44NS8H0cOHCafDTnemDFuXgv7A&w=1280'
         },
         {
-          id: 4,
+          id: 5,
           title: 'Harry Potter e a Ordem da Fênix',
           author: 'J.K. Rowling',
           year: '2003',
           image: 'https://books.google.com.br/books/publisher/content?id=9TcQCwAAQBAJ&hl=pt-BR&pg=PP1&img=1&zoom=3&bul=1&sig=ACfU3U2FKM9mfr_xa-lQhD1DS2VFo7EBWA&w=1280'
         },
         {
-          id: 5,
+          id: 6,
           title: 'Harry Potter e o Enigma do Príncipe',
           author: 'J.K. Rowling',
           year: '2005',
           image: 'https://books.google.com.br/books/publisher/content?id=yjUQCwAAQBAJ&hl=pt-BR&pg=PP1&img=1&zoom=3&bul=1&sig=ACfU3U3IsCzNQPypdQetDvLvwev_U129_Q&w=1280'
         },
         {
-          id: 6,
+          id: 7,
           title: 'Harry Potter e as Relíquias da Morte',
           author: 'J.K. Rowling',
           year: '2009',
           image: 'https://books.google.com.br/books/publisher/content?id=-DgQCwAAQBAJ&hl=pt-BR&pg=PP1&img=1&zoom=3&bul=1&sig=ACfU3U2r7a71CgdDHa5vXleyiP3gzS4b2Q&w=1280'
         },
         {
-          id: 7,
+          id: 8,
           title: 'Harry Potter e a Criança Amaldiçoada',
           author: 'J.K. Rowling',
           year: '2016',
